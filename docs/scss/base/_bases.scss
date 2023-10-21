@@ -1,0 +1,23 @@
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: $white;
+    z-index: -10;
+}
+
+.container {
+    max-width: 1247px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+* {
+    font-family: 'Montserrat Regular';
+    font-size: 14px;
+    color: $dark;
+}
+
